@@ -1,0 +1,22 @@
+[package]
+name = "sendicon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+arrayvec = {version = "0.7.2", features = ["serde"]}
+byte-unit = {version = "4.0.18", features = ["serde"]}
+config = "0.13.3"
+lazy_static = "1.4.0"
+sha3 = "0.10.6"
+moka = {version = "0.10.2", features = ["future"]}
+futures = "0.3.28"
+maud = {version = "*", features = ["actix-web"]}
+actix-multipart = "0.6.0"
+unicode-normalization = "0.1.22"
+tokio = "1.27.0"
+image = "0.24.6"
+kagamijxl = "0.3.3"
